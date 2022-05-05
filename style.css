@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg,#cc8b86 16.62%,#f9eae1 85.61%);
+}
+.um {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.itens {
+    display: flex;
+    gap: 35px;
+    font-family: verdana;
+color: #aa998f;
+font-weight: 400;
+font-size: 20px;
+}
+
+.principal {
+    margin-bottom: 50px;
+    border-top: 0.5px solid #7d4f50;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chav {
+    width: 205px;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.titulo {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    color: #7d4f50;
+}
+
+.sub {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #7d4f50;
+}
+
+.final{
+    background-color: #d1be9c;
+    color:#7d4f50;
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.final:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+    cursor:pointer;
+}
+
+.texto {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+}
+
+.texto2 {
+    border-top: 0.5px solid #7d4f50;
+    padding-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #7d4f50;
+    margin-bottom: 25px;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 18px;
+    color: #7d4f50;
+    margin-bottom: 20px;
+}
+
+.tel {
+    border-top: 0.5px solid #7d4f50;
+    padding: 32px;
+    font-size: 24px;
+    margin: 0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    display: flex;
+flex-direction: column;
+align-items: center;
+  
+}
+
+fotter {
+    border-top: 0.5px solid #7d4f50;
+}
